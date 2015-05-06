@@ -1,0 +1,88 @@
+
+.wrapper {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.5);
+    position: absolute;
+    z-index:99;
+    min-width: 675px;
+    width: 100%;
+    text-align: center;
+}
+.content__form {
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+}
+.contacts__input {
+    color: rgba(0, 0, 0, 0.5);
+    height: 20px;
+    margin: 10px;
+    width: 200px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-family: "Swis721bt";
+    padding-left: 5px;
+}
+#message{
+    height: 150px;
+    vertical-align: top;
+}
+
+#message:focus{
+    outline: none;
+}
+
+input:focus{
+    outline: none;
+}
+
+input[name="send"] {
+    height: 30px;
+    margin: 10px;
+    width: 130px;
+    border: 2px solid rgb(181,176,176);
+    border-radius: 5px;
+}
+
+input[name="send"]:hover{
+    border: 2px solid black;
+}
+
+input[name="send"]:active{
+    background: linear-gradient(to top, rgb(255, 255, 194),rgb(255, 255, 163));
+    background: -webkit-linear-gradient(bottom, rgb(255, 255, 194),rgb(255, 255, 163));
+}
+
+.contacts-container {
+    margin: 0 auto;
+    width: 400px;
+    background: linear-gradient(to top, rgba(57, 135, 158, 0.9),rgba(82, 188, 202, 0.9)); 
+    background: -webkit-linear-gradient(bottom, rgba(57, 135, 158, 0.9),rgba(82, 188, 202, 0.9));
+    border: solid rgb(255, 255, 194) 5px;
+    border-radius: 5px;
+    display: inline-block;
+}
+.contacts-container--name {
+    text-align: left;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 16px;
+    font-family: "Swis721bt";
+}
+
+.contacts-container--name p{
+	margin: 15px;
+}
+
+#close{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: -21px;
+}
+
+#confirm{
+    display: none;
+    font-size: 16px;
+    font-family: "Swis721bt";
+    margin: 0px;
+    margin-bottom: 10px;
+}

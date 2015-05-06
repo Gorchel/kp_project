@@ -1,0 +1,341 @@
+#servicesTable{
+    border-radius: 5px;
+    text-align: center;
+    font-family: "Swis721bt";
+    min-height: 400px;
+    background: rgb(248,248,248); 
+}
+
+.tableServices{
+    border-right: solid rgba(127, 127, 127,0.5) 1px;
+}
+
+
+.featuredForm{
+    font-size: 12px;
+    width: 75px;
+    border: solid rgba(127, 127, 127,0.5) 1px;
+    border-radius: 5px;
+    display: inline-block;
+    height: 25px;
+    margin: 0px;
+    text-align: left;
+}
+
+.modalBlockPage{
+    position: absolute;
+    z-index:99;
+    min-width: 675px;
+    width: 100%;
+    text-align: center;
+}
+
+.modalWindowButton{
+    width: 100px;
+    height: 25px;
+    font-family: "Swis721bt";
+    border-radius: 5px;
+    border: solid rgba(127, 127, 127,0.5) 2px;
+    background: white;
+    margin: 0px 15px 15px 15px;
+}
+
+.servicesInsertButton{
+    font-family: "Swis721bt";
+    border-radius: 5px;
+    margin: 15px;
+    color: green;
+    font-size: 14px;
+    width: 150px;
+    height: 30px;
+    border: 2px solid rgba(127, 127, 127,0.6);
+    background: white;
+}
+
+.servicesInsertButton:hover{
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.servicesInsertButton:active{
+    cursor: pointer;
+    color: red;
+}
+
+#buttonDownloadCopy{
+    width: 120px;
+    height: 35px;
+    margin: 0px;
+    font-family: "Swis721bt";
+    border-radius: 5px;
+    border: solid rgba(127, 127, 127,0.5) 2px;
+    background: white;
+}
+
+#buttonDownloadCopy:hover{
+    border: solid black 2px;
+    cursor: pointer;
+    
+}
+
+#buttonDownloadCopy:active{
+    background: rgba(120, 158, 57, 0.3);
+    cursor: pointer;
+}
+ 
+#buttonDownloadCopyText{
+    font-family: "Swis721bt";
+    font-size: 12px;
+    border: none;
+    display: none;
+    background: rgb(248,248,248);
+    margin: 0 auto;
+    text-align: center; 
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#modalWindowButtonDownload{
+    visibility: hidden;
+    height: 0px;
+}
+
+
+.modalWindowButton:hover{
+    border: solid black 2px;
+    cursor: pointer;
+}
+
+.modalWindowButton:active{
+    background: rgba(120, 158, 57, 0.3);
+    cursor: pointer;
+}
+
+.modalWindow{
+    margin: 0 auto;
+    width: 400px;
+    border: solid rgba(120, 158, 57, 0.7) 2px;
+    border-radius: 5px;
+    display: inline-block;
+    background: rgb(248,248,248);
+    max-height: 350px;
+    overflow-Y: scroll;
+}
+
+.modalWindow table{
+    font-family: "Swis721bt";
+    margin: 0 auto;
+}
+
+.modalWindowTable{
+    width: 100px;
+    border: 1px solid rgba(120, 158, 57, 0.7);
+    border-radius: 5px;
+    text-align: center;
+}
+
+.modalWindowTextarea{
+    width:300px;
+    resize: none;
+    text-align: justify;
+}
+
+.modalWindow h3{
+    margin-top: 0px;
+    font-family: "Swis721bt";
+}
+
+.servicesInsertSpan{
+    font-family: "Swis721bt";
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px;
+    margin-top: 20px;
+    display: block;
+}
+
+.modalWindow table td{
+    border: none;
+}
+
+.modalWindow table th{
+    font-family: "Swis721bt";
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.modalWindow textarea{
+    resize: none;
+    text-align: justify;
+    width: 250px;
+    height: 75px;
+}
+
+.serviceInsertText{
+    border-radius: 5px;
+    border: 1px solid rgb(127, 127, 127);
+    width: 75px;
+    height: 25px;
+    text-align: center;
+}
+  
+.servicesImage:hover{
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.servicesImageBlock{
+    padding: 0px;
+    min-width: 190px;
+    min-height: 72px;
+    max-width: 190px;
+    max-height: 72px;
+    margin: 0 auto;
+    border-radius: 5px;
+    background-image: url(img/downloadImg.png);   
+}
+
+.servicesImage{
+    overflow: hidden;
+    min-width: 190px;
+    min-height: 72px;
+    max-width: 190px;
+    max-height: 72px;
+    border-radius: 5px;
+}
+
+.servicesInsertImage{
+    padding: 0px;
+    overflow: hidden;
+    min-width: 190px;
+    min-height: 72px;
+    max-width: 190px;
+    max-height: 72px;
+    padding: 0px;
+    border-radius: 5px;
+    background: url(img/downloadImg.png); 
+    margin: 0 auto;
+}
+
+#insertLine{
+    width: 300px;
+    margin: 0 auto;
+}
+
+.servicesInsertImage:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.servicesInsertImage:active{
+    opacity: 0.7;
+    cursor: pointer;
+}
+  
+input[name = "featuredButton"]:hover{
+    background: rgba(127, 127, 127,0.3);
+    cursor: pointer;
+}
+
+input[name = "featuredButton"]:active{
+    background: white;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.featuredButtonTrue{
+    font-size: 18px;
+    width: 37px;
+    height: 25px;
+    color: green;
+    border: none;
+    border-right: 2px solid black;
+    border-radius: 5px 0px 0px 5px;
+    background: white;
+}
+
+.featuredButtonFalse{
+    font-size: 18px;
+    width: 37px;
+    height: 25px;
+    color: red;
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+    background: white;
+    border-left: 2px solid black;
+    margin-left: 38px;
+}
+
+td{
+    border-top: solid rgba(127, 127, 127,0.5) 1px;
+}
+
+.servicesTitleParagraf{
+    color: red;
+}
+
+.servicesTitleParagraf:hover{
+    cursor: pointer;
+    color: rgba(120, 158, 57, 0.7);
+}
+
+#modalWindowHiddenSpan{
+    visibility: hidden;
+}
+
+.servicesBodyDate{
+    text-align: center;
+    font-size: 12px;
+    color: rgb(127, 127, 127);
+    min-height: 100%;
+    width: 100%;
+}
+
+.servicesBodyDate:hover{
+    cursor: pointer;
+    color: black;
+}
+
+.deleteServicesRow{
+    background: url(img/delete.png);
+    width: 25px;  
+    height: 25px;
+    border: none;
+}
+
+.deleteServicesRow:hover{
+    background: url(img/deleteFocus.png);
+    cursor: pointer;
+}
+
+#deleteServicesRowTd{
+    border-right: none;
+    width: 25px;
+}
+
+#featuredServices{  
+    text-align: center;
+}
+
+#titleThServices{
+    width: 100px;
+}
+
+#bodyThServices{
+    width: 175px;
+}
+
+#imgThServices{
+    width: 200px;   
+}
+
+#createdThServices{
+    width: 75px;
+}
+
+#featuredThServices{
+    border-right: none;
+    width: 100px;
+}
